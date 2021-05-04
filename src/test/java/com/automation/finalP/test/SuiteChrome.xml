@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My first suite" verbose="1">
+    <listeners>
+        <listener class-name="com.automation.finalP.utils.CoolListener"/>
+    </listeners>
+    <parameter name="browser" value="chrome"/>
+    <test name="My first Test">
+        <classes>
+            <class name="com.automation.finalP.test.TravelocityTest"/>
+        </classes>
+    </test>
+</suite>
